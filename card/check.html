@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:whitesmoke;
+}
+#myDIV {
+  height:300px;
+  background-color:green;
+}
+#mymain {
+  width:100%;
+  height: 100px;
+  display: flex;
+  background-color: blue;
+}
+#bluediv {
+  flex-grow: 2;
+}
+#ab{
+    flex-grow:1;
+}
+</style>
+</head>
+<body>
+
+<h1>The flex-grow property</h1>
+
+<div id="myDIV">
+<p>Set the flex-grow property of the BLUE div:</p>
+<div id="mymain">
+  <div id="ab" style="background-color:coral;">red div</div>
+  <div id="bluediv" style="background-color:lightblue;">blue div</div>
+  <div style="background-color:khaki;">yellow div</div>
+  <div style="background-color:pink;">pink div</div>
+</div>
+</div>
+
+</body>
+</html>

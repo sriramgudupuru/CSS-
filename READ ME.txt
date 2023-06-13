@@ -1,0 +1,6 @@
+-->text align works on all inline elements. 
+-->to use margin:auto in a way to center something, firstly that element has to be block element
+--> Flex box cotainers are by default block elements 
+-->coolors.com image picker etc.
+-->align items deafault value is stretch. 
+--> When flex direction value is column, then justify content becomes text align and viceversa
